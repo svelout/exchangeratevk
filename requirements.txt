@@ -1,2 +1,3 @@
 vk_api
 forex-python
+pytz
