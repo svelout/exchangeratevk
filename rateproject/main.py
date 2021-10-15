@@ -20,7 +20,7 @@ while True:
     now = datetime.now()
     if now.hour == 00:
         res = c.get_rate("USD", "RUB")
-        val = round(res, 1)
+        val = round(res)
         try:
            vk.wall.edit(post_id=post_id, message=f"Текущий курс доллара: {val} рублей\nОбновление курса происходит автоматически каждые 24 часа\nПодробнее здесь: https://github.com/svelout/exchangeratevk")
         except Exception as e:
