@@ -18,7 +18,7 @@ while True:
     res = c.get_rate("USD", "RUB")
     val = round(res, 1)
     try:
-     vk.wall.edit(post_id=post_id, message=f"Текущий курс доллара: {val}\nОбновление курса работает происходит автоматически каждые 24 часа\nПодробнее здесь: https://github.com/svelout/exchangeratevk")
+     vk.wall.edit(post_id=post_id, message=f"Текущий курс доллара: {val}\nОбновление курса происходит автоматически каждые 24 часа\nПодробнее здесь: https://github.com/svelout/exchangeratevk")
     except Exception as e:
         vk.messages.send(message=f"Произошла ошибка: {e}")
         sys.exit(-1)
