@@ -25,7 +25,7 @@ while True:
            vk.wall.edit(post_id=post_id, message=f"Текущий курс доллара: {val} рублей\nОбновление курса происходит автоматически каждые 24 часа\nПодробнее здесь: https://github.com/svelout/exchangeratevk")
         except Exception as e:
            vk.messages.send(message=f"Произошла ошибка: {e}")
-        sys.exit(-1)
+           sys.exit(-1)
     else:
         print("Continue waiting...")
         time.sleep(5)
