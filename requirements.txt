@@ -1,0 +1,6 @@
+pip~=20.2.3
+toml~=0.10.2
+cryptography~=3.4.7
+py~=1.10.0
+keyring~=23.0.1
+setuptools~=49.2.1
