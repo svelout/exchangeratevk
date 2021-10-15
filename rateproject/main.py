@@ -1,5 +1,4 @@
 from forex_python.converter import CurrencyRates as rate
-import pytz
 import sys
 import time
 from datetime import datetime
